@@ -1,6 +1,5 @@
 import { describe, it, expect } from "vitest";
 import { gerarProjecao, proximoMes, mesAnterior } from "./projecao";
-import type { MesReferencia } from "./tipos";
 
 describe("gerarProjecao", () => {
   it("gera a quantidade correta de meses", () => {
